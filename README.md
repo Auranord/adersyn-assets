@@ -12,6 +12,12 @@ Each model folder contains `.bbmodel`, `.blockymodel`, a PNG texture, and a 1024
 
 <a href="adersyn_copper_lock/adersyn_copper_lock_preview.png"><img src="adersyn_copper_lock/adersyn_copper_lock_preview.png" alt="adersyn_copper_lock" width="240" /></a>
 
+### adersyn_flax_bundle
+
+[Model files](adersyn_flax_bundle/)
+
+<a href="adersyn_flax_bundle/adersyn_flax_bundle_preview.png"><img src="adersyn_flax_bundle/adersyn_flax_bundle_preview.png" alt="adersyn_flax_bundle" width="240" /></a>
+
 ### adersyn_generic_bundle
 
 [Model files](adersyn_generic_bundle/)
