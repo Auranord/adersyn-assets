@@ -8,7 +8,9 @@ Copyright © 2026 AuraNord. All rights reserved, except for the limited permissi
 
 **Authorized project:** **Adersyn**, the Hytale role-playing server and associated website, community, game content, and official project activities.
 
-**Authorized operator:** **Fabian Kuttruf**, acting for the Adersyn project. This permission also extends to developers, contributors, contractors, and service providers acting on the authorized operator's behalf, but only as needed for Adersyn.
+**Authorized operators:** The individuals or legal entities that legitimately operate and administer the Adersyn project, now or in the future, including any successor that continues operating the same project. This permission also extends to developers, contributors, contractors, and service providers acting on behalf of an authorized operator, solely as needed for Adersyn.
+
+A change in Adersyn's management, legal structure, or operator does not, by itself, terminate the permission granted by this license, provided the resources continue to be used exclusively for Adersyn.
 
 ## 2. Covered resources
 
@@ -18,7 +20,7 @@ A resource becomes covered when it is added to this repository by the Licensor o
 
 ## 3. Permission granted to Adersyn
 
-The Licensor grants the authorized operator a **non-exclusive, worldwide, royalty-free right**, for the duration of the applicable rights, to use the covered resources **solely for Adersyn**, including for commercial purposes. This includes permission to:
+The Licensor grants each authorized operator defined in Section 1 a **non-exclusive, worldwide, royalty-free right**, for the duration of the applicable rights, to use the covered resources **solely for Adersyn**, including for commercial purposes. This includes permission to:
 
 - Copy, store, host, integrate, display, perform, and otherwise use the resources in Adersyn.
 - Modify, adapt, optimize, convert, and create derivatives of the resources for Adersyn.
@@ -35,9 +37,9 @@ Unless the Licensor separately authorizes it in writing, this license does **not
 - Use of the resources in any project other than Adersyn.
 - Independent resale, publication, or redistribution of the resources as standalone assets or asset collections.
 - Relicensing the resources under an open-source, Creative Commons, or other general-purpose license.
-- Transfer of this license to a different project operator or an unrelated project.
+- Transfer or sublicense of these resources for use in any unrelated project, or by parties not acting for Adersyn.
 
-The limited sharing and distribution expressly allowed in Section 3 are not prohibited by this section.
+A change of operator for the continuing Adersyn project is permitted under Section 1. The limited sharing and distribution expressly allowed in Section 3 are not prohibited by this section.
 
 ## 5. Attribution
 
