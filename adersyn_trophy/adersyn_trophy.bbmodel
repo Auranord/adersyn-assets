@@ -1,0 +1,1826 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "hytale_prop",
+    "box_uv": false
+  },
+  "name": "monster_hunter_trophy",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "multi_file_ruleset": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {},
+  "ai_used": true,
+  "ai_agents": "codex-mcp-client",
+  "resolution": {
+    "width": 64,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "Foot",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -4,
+        0,
+        -3
+      ],
+      "to": [
+        4,
+        1,
+        3
+      ],
+      "autouv": 1,
+      "color": 3,
+      "origin": [
+        0,
+        0.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            9,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            1,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            9,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            1,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            1,
+            25,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            25,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "dbad50ce-b3b9-4022-fbb8-26e752d4b724"
+    },
+    {
+      "name": "Carved plinth",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -3,
+        1,
+        -2
+      ],
+      "to": [
+        3,
+        3,
+        2
+      ],
+      "autouv": 1,
+      "color": 6,
+      "origin": [
+        0,
+        2,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            26,
+            1,
+            32,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            37,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            26,
+            1,
+            32,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            37,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            38,
+            1,
+            44,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            38,
+            1,
+            44,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "fe726a3b-cf0b-d396-b6ef-86ff5bdd514a"
+    },
+    {
+      "name": "Upper ledge",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -4,
+        3,
+        -3
+      ],
+      "to": [
+        4,
+        4,
+        3
+      ],
+      "autouv": 1,
+      "color": 7,
+      "origin": [
+        0,
+        3.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            9,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            1,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            9,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            1,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            1,
+            25,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            25,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "68ec03aa-ac0d-3606-f57b-0be184754c60"
+    },
+    {
+      "name": "Short grip stem",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -1,
+        4,
+        -1
+      ],
+      "to": [
+        1,
+        8,
+        1
+      ],
+      "autouv": 1,
+      "color": 3,
+      "origin": [
+        0,
+        6,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            45,
+            1,
+            47,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            45,
+            1,
+            47,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            45,
+            1,
+            47,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            45,
+            1,
+            47,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            1,
+            50,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            1,
+            50,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "43ccf27b-22b4-65b5-af8f-52299957c678"
+    },
+    {
+      "name": "Trophy backing",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -3,
+        7,
+        -1
+      ],
+      "to": [
+        3,
+        13,
+        1
+      ],
+      "autouv": 1,
+      "color": 0,
+      "origin": [
+        0,
+        10,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            51,
+            1,
+            57,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            58,
+            1,
+            60,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            51,
+            1,
+            57,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            58,
+            1,
+            60,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            8,
+            7,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            8,
+            7,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "b4fca4a7-661b-1125-868f-db95a4e0deff"
+    },
+    {
+      "name": "Ominous centerpiece",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -2,
+        8,
+        -2
+      ],
+      "to": [
+        2,
+        12,
+        0
+      ],
+      "autouv": 1,
+      "color": 4,
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "origin": [
+        0,
+        10,
+        -1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            8,
+            12,
+            12
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15,
+            12
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            8,
+            12,
+            12
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15,
+            12
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            8,
+            20,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            8,
+            20,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "06a2b6d9-049a-c99e-c0cf-3ff13fef05c8"
+    },
+    {
+      "name": "Left relic lower",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -5,
+        9,
+        -1
+      ],
+      "to": [
+        -3,
+        14,
+        1
+      ],
+      "autouv": 1,
+      "color": 1,
+      "rotation": [
+        0,
+        0,
+        24
+      ],
+      "origin": [
+        -4,
+        11.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "4bd0dda2-7a48-6663-6070-a5963c1931e3"
+    },
+    {
+      "name": "Left hooked tip",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -6,
+        13,
+        -1
+      ],
+      "to": [
+        -5,
+        16,
+        1
+      ],
+      "autouv": 1,
+      "color": 7,
+      "rotation": [
+        0,
+        0,
+        -24
+      ],
+      "origin": [
+        -5.5,
+        14.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            29,
+            8,
+            31,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            29,
+            8,
+            31,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            32,
+            8,
+            33,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            32,
+            8,
+            33,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "22f80012-aba7-7909-6f85-eadaf104267f"
+    },
+    {
+      "name": "Right relic lower",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        3,
+        9,
+        -1
+      ],
+      "to": [
+        5,
+        14,
+        1
+      ],
+      "autouv": 1,
+      "color": 2,
+      "rotation": [
+        0,
+        0,
+        -24
+      ],
+      "origin": [
+        4,
+        11.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "1aae0b91-42b9-3d1f-7c7c-d3cfb618ca4e"
+    },
+    {
+      "name": "Right hooked tip",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        5,
+        13,
+        -1
+      ],
+      "to": [
+        6,
+        16,
+        1
+      ],
+      "autouv": 1,
+      "color": 7,
+      "rotation": [
+        0,
+        0,
+        24
+      ],
+      "origin": [
+        5.5,
+        14.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            29,
+            8,
+            31,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            29,
+            8,
+            31,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            32,
+            8,
+            33,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            32,
+            8,
+            33,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "e9dfc17f-2ba5-30f4-1ced-63c9916313fb"
+    },
+    {
+      "name": "Crown shard",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -1,
+        12,
+        0
+      ],
+      "to": [
+        1,
+        17,
+        2
+      ],
+      "autouv": 1,
+      "color": 6,
+      "rotation": [
+        0,
+        0,
+        -12
+      ],
+      "origin": [
+        0,
+        14.5,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            21,
+            8,
+            23,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "ed8cf4b9-64eb-e7ac-fd9b-23d4188363a7"
+    },
+    {
+      "name": "Crown shard tip",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -1,
+        16,
+        0
+      ],
+      "to": [
+        0,
+        19,
+        1
+      ],
+      "autouv": 1,
+      "color": 5,
+      "rotation": [
+        0,
+        0,
+        -12
+      ],
+      "origin": [
+        -0.5,
+        17.5,
+        0.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            27,
+            8,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            34,
+            8,
+            35,
+            9
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            34,
+            8,
+            35,
+            9
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "927163be-e21b-01dd-f14c-49bbbf8e3f40"
+    },
+    {
+      "name": "Left leather clamp",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -4,
+        8,
+        -2
+      ],
+      "to": [
+        -2,
+        10,
+        2
+      ],
+      "autouv": 1,
+      "color": 1,
+      "rotation": [
+        0,
+        0,
+        -12
+      ],
+      "origin": [
+        -3,
+        9,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            36,
+            8,
+            38,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            36,
+            8,
+            38,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            44,
+            8,
+            46,
+            12
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            44,
+            8,
+            46,
+            12
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "1bb5d720-a1bf-5f4d-2eb2-e0357a5ebebe"
+    },
+    {
+      "name": "Right leather clamp",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        2,
+        8,
+        -2
+      ],
+      "to": [
+        4,
+        10,
+        2
+      ],
+      "autouv": 1,
+      "color": 1,
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "origin": [
+        3,
+        9,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            36,
+            8,
+            38,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            36,
+            8,
+            38,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            44,
+            8,
+            46,
+            12
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            44,
+            8,
+            46,
+            12
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "731bfda7-d054-e752-a1f2-548d6e0b6277"
+    },
+    {
+      "name": "Stem leather wrap",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -2,
+        5,
+        -2
+      ],
+      "to": [
+        2,
+        7,
+        2
+      ],
+      "autouv": 1,
+      "color": 6,
+      "origin": [
+        0,
+        6,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            39,
+            8,
+            43,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            47,
+            8,
+            51,
+            12
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            47,
+            8,
+            51,
+            12
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "4602cc30-a962-09f8-8194-e9b05ea5ae13"
+    },
+    {
+      "name": "Bronze centerpiece rim",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -2.5,
+        7.5,
+        -1.5
+      ],
+      "to": [
+        2.5,
+        12.5,
+        -0.5
+      ],
+      "autouv": 1,
+      "color": 3,
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "origin": [
+        0,
+        10,
+        -1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            52,
+            8,
+            57,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            58,
+            8,
+            59,
+            13
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            52,
+            8,
+            57,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            58,
+            8,
+            59,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            14,
+            6,
+            15
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            14,
+            6,
+            15
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "5de2c131-9f92-abae-33e9-0caaf22b0241"
+    },
+    {
+      "name": "Left bone knuckle",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -6,
+        12,
+        -1.5
+      ],
+      "to": [
+        -4,
+        14,
+        1.5
+      ],
+      "autouv": 1,
+      "color": 9,
+      "rotation": [
+        0,
+        0,
+        -24
+      ],
+      "origin": [
+        -5,
+        13,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            14,
+            9,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            14,
+            13,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            14,
+            9,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            14,
+            13,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            14,
+            14,
+            16,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            14,
+            16,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "f995cebd-976b-2839-ba3e-cc838766c9c1"
+    },
+    {
+      "name": "Right bone knuckle",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        4,
+        12,
+        -1.5
+      ],
+      "to": [
+        6,
+        14,
+        1.5
+      ],
+      "autouv": 1,
+      "color": 0,
+      "rotation": [
+        0,
+        0,
+        24
+      ],
+      "origin": [
+        5,
+        13,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            14,
+            9,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            14,
+            13,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            14,
+            9,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            14,
+            13,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            14,
+            14,
+            16,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            14,
+            16,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "ec58eca3-0cbb-72db-b585-b246687968b4"
+    },
+    {
+      "name": "Bronze stem collar",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "shading_mode": "flat",
+      "double_sided": false,
+      "from": [
+        -1.5,
+        4,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        5,
+        1.5
+      ],
+      "autouv": 1,
+      "color": 2,
+      "origin": [
+        0,
+        4.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            14,
+            20,
+            15
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            17,
+            14,
+            20,
+            15
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            17,
+            14,
+            20,
+            15
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            14,
+            20,
+            15
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            21,
+            14,
+            24,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            21,
+            14,
+            24,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "e41422ee-0f98-50cd-2676-bff6d889497f"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Monster hunter trophy",
+      "uuid": "e7ab897a-ed13-f4a0-6ea4-e78da15605f0",
+      "export": true,
+      "locked": false,
+      "scope": 0,
+      "selected": false,
+      "visibility": true,
+      "_static": {
+        "properties": {},
+        "temp_data": {}
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "is_piece": false,
+      "original_position": [
+        0,
+        0,
+        0
+      ],
+      "original_offset": [
+        0,
+        0,
+        0
+      ],
+      "children": [],
+      "reset": false,
+      "shade": true,
+      "mirror_uv": false,
+      "autouv": 0,
+      "isOpen": true,
+      "primary_selected": false
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "e7ab897a-ed13-f4a0-6ea4-e78da15605f0",
+      "isOpen": true,
+      "children": [
+        "dbad50ce-b3b9-4022-fbb8-26e752d4b724",
+        "fe726a3b-cf0b-d396-b6ef-86ff5bdd514a",
+        "68ec03aa-ac0d-3606-f57b-0be184754c60",
+        "43ccf27b-22b4-65b5-af8f-52299957c678",
+        "b4fca4a7-661b-1125-868f-db95a4e0deff",
+        "06a2b6d9-049a-c99e-c0cf-3ff13fef05c8",
+        "4bd0dda2-7a48-6663-6070-a5963c1931e3",
+        "22f80012-aba7-7909-6f85-eadaf104267f",
+        "1aae0b91-42b9-3d1f-7c7c-d3cfb618ca4e",
+        "e9dfc17f-2ba5-30f4-1ced-63c9916313fb",
+        "ed8cf4b9-64eb-e7ac-fd9b-23d4188363a7",
+        "927163be-e21b-01dd-f14c-49bbbf8e3f40",
+        "1bb5d720-a1bf-5f4d-2eb2-e0357a5ebebe",
+        "731bfda7-d054-e752-a1f2-548d6e0b6277",
+        "4602cc30-a962-09f8-8194-e9b05ea5ae13",
+        "5de2c131-9f92-abae-33e9-0caaf22b0241",
+        "f995cebd-976b-2839-ba3e-cc838766c9c1",
+        "ec58eca3-0cbb-72db-b585-b246687968b4",
+        "e41422ee-0f98-50cd-2676-bff6d889497f"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "adersyn_trophy.png",
+      "relative_path": "adersyn_trophy.png",
+      "folder": "",
+      "namespace": "",
+      "id": "0",
+      "group": "",
+      "scope": 0,
+      "width": 64,
+      "height": 32,
+      "uv_width": 64,
+      "uv_height": 32,
+      "particle": false,
+      "use_as_default": true,
+      "layers_enabled": false,
+      "sync_to_project": "",
+      "file_format": "png",
+      "render_mode": "default",
+      "render_sides": "auto",
+      "wrap_mode": "clamp",
+      "pbr_channel": "color",
+      "fps": 7,
+      "force_translucent": false,
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "c7f107ba-a682-9225-bd98-0a754e6c7df0",
+      "source": "data:image/png;base64,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"
+    }
+  ]
+}
